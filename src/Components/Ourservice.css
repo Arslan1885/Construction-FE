@@ -1,0 +1,32 @@
+/* Section 2 css */
+
+.section2 .customheading {
+    font-weight: 700;
+}
+
+.card {
+    overflow: hidden;
+    border-bottom: 1px solid #EF5B13;
+
+}
+
+.card img {
+    transition: transform 1s ease-out;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+
+
+}
+
+.card .btn {
+    background-color: #EF5B13;
+    color: #fff;
+}
+
+.card .btn:hover {
+    background-color: #fff;
+    color: #EF5B13;
+    border: 1px solid #EF5B13;
+}

@@ -1,0 +1,57 @@
+/* Section 1 css */
+
+.section1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url('../../Assets/images/homehero1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75vh;
+    width: 100%;
+    position: relative;
+
+}
+
+.herotext {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+}
+
+.herotext span {
+    color: white;
+}
+
+.herotext h1 {
+    color: #fff;
+    font-size: 50px;
+}
+
+@media only screen and (min-width:320px)and (max-width: 767px) {
+    .herotext {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) {
+    .herotext {
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    }
+
+    .herotext h1 {
+        color: #fff;
+        font-size: 50px;
+    }
+}
+
+
