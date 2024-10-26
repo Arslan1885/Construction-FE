@@ -1,0 +1,66 @@
+/* Section 1 css */
+
+.sectionc {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url('../../Assets/images/contactpng.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75vh;
+    width: 100%;
+    position: relative;
+
+}
+
+.herotextc {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+}
+
+.herotextc span {
+    color: white;
+}
+
+.herotextc h1 {
+    color: #fff;
+    font-size: 50px;
+}
+
+@media only screen and (min-width:320px)and (max-width: 767px) {
+    .herotextc {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) {
+    .herotextc {
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    }
+
+    .herotextc h1 {
+        color: #fff;
+        font-size: 50px;
+    }
+}
+
+.contact-form .btn {
+    background-color: #EF5B13;
+    color: #fff;
+}
+
+.contact-form .btn:hover {
+    background-color: #fff;
+    color: #EF5B13;
+    border: 1px solid #EF5B13;
+}

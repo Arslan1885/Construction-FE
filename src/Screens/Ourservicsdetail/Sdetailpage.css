@@ -1,0 +1,20 @@
+.sd img{
+    height: 90vh;
+    width: 100%;
+}
+.sd h1{
+   
+    font-weight: 700;
+}
+.sd p {
+    font-size: 17px;
+}
+.sd .btn{
+    background-color: #EF5B13;
+    color: #fff;
+}
+.sd .btn:hover{
+background-color: #fff;
+color: #EF5B13;
+border: 1px solid #EF5B13;
+}

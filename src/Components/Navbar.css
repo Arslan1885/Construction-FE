@@ -1,0 +1,42 @@
+Timing Bar
+.below-nav {
+    border-bottom: solid rgba(255, 255, 255, 0.5) 1px;
+}
+.below-nav li {
+    font-size: 14px;
+    color: #EF5B13;
+}
+.below-nav li:hover {
+
+    color: #fff;
+}
+.below-nav .icon {
+    text-decoration: none;
+    color: #EF5B13;
+}
+.below-nav .icon:hover {
+    color: #fff;
+}
+@media only screen and (max-width: 1020px) {
+    .below-nav {
+        display: none;
+    }
+}
+
+/* Navbar section */
+
+nav .btn {
+    background-color: #EF5B13;
+    color: #fff;
+}
+nav .btn:hover {
+    background-color: #fff;
+    color: #EF5B13;
+    border: 1px solid #EF5B13;
+}
+nav ul li .nav-link {
+    color: #fff !important;
+}
+nav ul li .nav-link.active {
+    color: #EF5B13 !important;
+}

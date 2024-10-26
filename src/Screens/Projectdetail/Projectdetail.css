@@ -1,0 +1,20 @@
+.pd img{
+    height: 90vh;
+    width: 100%;
+}
+.pd h1{
+   
+    font-weight: 700;
+}
+.pd p {
+    font-size: 17px;
+}
+.pd .btn{
+    background-color: #EF5B13;
+    color: #fff;
+}
+.pd .btn:hover{
+background-color: #fff;
+color: #EF5B13;
+border: 1px solid #EF5B13;
+}

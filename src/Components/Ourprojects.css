@@ -1,0 +1,70 @@
+/* Section4 */
+.section4 .link {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.section4 .link.active {
+    color: #EF5B13;
+    /* Change this to your desired active color */
+}
+
+.section4 h1 {
+
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .section4 .customflex {
+        display: block;
+        flex-direction: column;
+
+    }
+
+    .section4 .link {
+
+        font-size: 15px;
+    }
+
+    .section4 h1 {
+        font-size: 40px;
+        font-weight: 700;
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 20px;
+
+    }
+
+}
+
+@media only screen and (min-width:768px) and (max-width:835px) {
+
+    .section4 .customflex {
+
+        align-items: end;
+
+    }
+
+    .section4 h1 {
+        font-size: 50px;
+        font-weight: 700;
+        margin: 0px;
+        padding: 0px;
+    }
+
+}
+
+@media only screen and (min-width:836px) and (max-width:1444px) {
+
+    .section4 .customflex {
+        justify-content: center;
+        align-items: end;
+
+    }
+}

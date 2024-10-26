@@ -1,0 +1,48 @@
+/* Section3 */
+.section3 h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+}
+
+.section3 img {
+    height: 100%;
+    width: 100%;
+}
+
+.section3 .btn {
+    background-color: #EF5B13;
+    color: #fff;
+}
+
+.section3 .btn:hover {
+    background-color: #fff;
+    color: #EF5B13;
+    border: 1px solid #EF5B13;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .section3 h1 {
+        font-size: 40px;
+        font-weight: 800;
+        margin: 0px;
+        padding: 0px;
+    }
+
+}
+
+@media only screen and (min-width:768px) and (max-width:835px) {
+    .section3 .customflex {
+        display: block;
+        flex-direction: column;
+    }
+
+    .section3 h1 {
+        font-size: 50px;
+        font-weight: 700;
+        margin: 0px;
+        padding: 0px;
+    }
+
+}
